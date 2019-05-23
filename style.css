@@ -1,0 +1,96 @@
+#principal{
+    background-image: url('fundo7.jpg');
+    background-size: 100%;
+    min-height: 600px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFAFA
+}
+#foto{
+    float: left;
+    background-image: url('pessoal.jpeg');
+    width: 250px;
+    height: 200px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    border-radius: 150px 150px;
+    margin-top: 50px;
+}
+#texto {
+    float: left;
+    width: 250px;
+    height: 200px;
+    color: #FFFAFA;
+    margin-top: 25px;
+    margin-right: 1500px
+}
+#menu{
+    float: right;
+    margin-top: 25px;
+}
+#menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: #111;
+}
+#menu a:hover{
+    background-color: #D2691E;
+}
+#logo{
+    font-family: cursive;
+}
+#email_usuario{
+    text-align: center;
+    color:#000000;
+    background-color:#EEE8AA;
+    width: 400px;
+    height: 350px;
+    
+}
+#cont{
+    
+    width: 400px;
+    height:500px;
+}
+#contato{
+    background-image: url('contato.jpg');
+    width: 1000px;
+    height: 400px;
+    margin-left: 400px
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    width: 600px;
+    height:500px;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contato{
+    width: 600px;
+    height:500px;
+}
+header{
+    background-color: #EEE8AA;
+    height: 80px;
+    padding: 20px;
+    
+}
+footer{
+    background-color: #EEE8AA;
+    text-align: center;
+    height: 120px;
+    padding: 20px 0px 10px 0px;
+    background-size: 100%;
+
+    
+}
